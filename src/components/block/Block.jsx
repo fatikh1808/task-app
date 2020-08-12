@@ -9,10 +9,6 @@ const Block = (props) => {
         backgroundColor: "black"
     };
 
-    {
-        console.log(divStyleRe.backgroundColor)
-    }
-
     if (active !== 0) {
         if (numb === 1){
             divStyleRe.backgroundColor = "yellow";
